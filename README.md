@@ -1,6 +1,6 @@
 # Moving_Object_Removal
 
-A novel application of temporal video data to remove moving objects and return a static background. 
+A novel use of temporal data to remove moving objects from a video and return a static background. 
 
 Utilizes consecutive frames in video with a convolutional net to generate a mask of the moving objects.
 Processes these maps and uses image inpainting to return a complete background.
